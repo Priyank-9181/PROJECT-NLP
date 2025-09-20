@@ -11,3 +11,4 @@ wordcloud
 tensorflow>=2.0.0
 joblib
 pickle-mixin
+plotly
