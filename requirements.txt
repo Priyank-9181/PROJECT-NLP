@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+nltk
+emoji
+beautifulsoup4
+streamlit
+matplotlib
+seaborn
+wordcloud
+tensorflow>=2.0.0
+joblib
+pickle-mixin
