@@ -14,10 +14,12 @@ from sklearn.metrics import accuracy_score, classification_report
 import pickle
 import nltk
 
-# Download required NLTK data
-nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("wordnet")
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+    nltk.download('punkt_tab')
 
 
 # Load Hindi stopwords
